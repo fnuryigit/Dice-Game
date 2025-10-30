@@ -19,8 +19,6 @@ Oyuncu kendi adını değiştirebilir ve oyunu tekrar oynayabilir.
 
 ## Projenin canlı linkine buradan ulaşabilrsiniz 
 
-
-
----
-
+[
+](https://fnuryigit.github.io/Dice-Game/)
 
