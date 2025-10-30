@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game 🎲</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1 id="result">Hazırsan zar at 🎲</h1>
+
+      <div class="players">
+        <div class="player">
+          <h2 id="player-name">Player 1</h2>
+          <img id="dice1" src="images/dice1.png" alt="Zar 1" />
+        </div>
+        <div class="player">
+          <h2>Player 2</h2>
+          <img id="dice2" src="images/dice1.png" alt="Zar 2" />
+        </div>
+      </div>
+
+      <div class="controls">
+        <input type="text" id="username" placeholder="İsmini yaz (Player 1)" />
+        <button id="roll-btn">
+          <img src="images/shuffle.png" alt="Zar At" />
+        </button>
+      </div>
+
+      <footer>
+        <p>🎲 Dice Game 🎲 | Bol Kazançlar 💰</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
